@@ -1,4 +1,4 @@
-const wordList = ['python', 'dashain', 'radheradhe', 'hangman', 'developer', 'papaya', 'javascript','calender', 'lalitpur', 'html', 'break', 'college', 'school', 'multimedia', 'simulation', 'css', 'nepal', 'kathmandu', 'algorithm', 'system', 'srijal', 'festival', 'tihar', 'computation', 'department', 'meeting', 'organization', 'saturday', 'holiday', 'plug', 'king'];
+const wordList = ['python', 'dashain', 'radheradhe', 'hangman', 'developer', 'nepal', 'hello', 'papaya', 'javascript','calender', 'lalitpur', 'html', 'break', 'college', 'school', 'multimedia', 'simulation', 'css', 'nepal', 'kathmandu', 'algorithm', 'system', 'srijal', 'festival', 'tihar', 'computation', 'department', 'meeting', 'organization', 'saturday', 'holiday', 'plug', 'king'];
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 const guessedLetters = [];
 let attemptsLeft = 6;
